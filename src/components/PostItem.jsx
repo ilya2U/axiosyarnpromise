@@ -59,8 +59,8 @@ const PostItem = (props) => {
 
                <div className="fsStage">
                   <div className="postBtn">
-                    {/* <MyButton onClick={handleToggle}>Комментарии</MyButton> */}
-                    <PostsComments post={props.post}/>
+                    <MyButton onClick={handleToggle}>Комментарии</MyButton>
+                    {/* <PostsComments post={props.post}/> */}
                     <MyButton style={{marginLeft: -1}} onClick={deletePost}>Удалить</MyButton>
                     </div>
                </div>
